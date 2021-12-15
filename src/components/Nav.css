@@ -1,0 +1,9 @@
+.nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navHeading {
+	padding: 50px 100px 0 100px;
+	color: white;
+}
