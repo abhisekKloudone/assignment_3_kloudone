@@ -7,9 +7,19 @@ function App() {
 	return (
 		<div className="App">
 			<Nav />
-			<Cards />
-			<Cards />
-			<Cards />
+			<div
+				style={{
+					display: "flex",
+					flexdirection: "column",
+					"flex-wrap": "wrap",
+				}}>
+				<Cards />
+				<Cards />
+				<Cards />
+				<Cards />
+				<Cards />
+				<Cards />
+			</div>
 		</div>
 	);
 }
