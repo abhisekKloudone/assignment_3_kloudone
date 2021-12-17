@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-import Cards from "./Cards";
 
 function DragDrop({ data }) {
 	const [list, setList] = useState(data);
@@ -7,6 +6,9 @@ function DragDrop({ data }) {
 
 	const dragItem = useRef();
 	const dragNode = useRef();
+
+	console.log(dragItem);
+	console.log(dragNode);
 
 	const handleDragStart = (e, params) => {
 		console.log("drag starting", params);
