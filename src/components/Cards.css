@@ -1,8 +1,9 @@
 .cards {
 	display: flex;
-	flex-direction: row;
-	padding-top: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
-	cursor: pointer;
+	/* flex-direction: row; */
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	/* cursor: pointer; */
 }

@@ -2,19 +2,19 @@ import React from "react";
 import { Card } from "antd";
 import "./Cards.css";
 
-function Cards() {
+function Cards({ onDragStart, onDragEnter }) {
 	return (
 		<div className="cards">
 			<Card
-				title="Default size card"
+				title="Title"
 				extra={
 					<img
-						style={{ width: "35px" }}
+						style={{ width: "50px" }}
 						src="https://www.pngall.com/wp-content/uploads/5/Profile-PNG-Free-Download.png"
 						alt=""
 					/>
 				}
-				style={{ width: 300 }}>
+				style={{ width: 500 }}>
 				<p>Card content</p>
 			</Card>
 		</div>
